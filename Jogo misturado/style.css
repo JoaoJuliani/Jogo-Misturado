@@ -1,0 +1,97 @@
+@font-face {
+    font-family:"carterone" ;
+    src: url(fontes/CarterOne-Regular.ttf);
+}
+
+:root{
+    --cordefundo: #292f3b;
+    --corletras: orange;
+    --fonte: "carterone";
+}
+
+*{
+    margin: auto;
+    max-width: 500px;
+    max-height: 1000px;
+    text-align: center;
+}
+
+body{
+    background-color: #292f3b;
+}
+
+header{
+    margin: 0px 0px;
+
+}
+
+h1{
+    color: orange;
+    font-family:"carterone", "arial";
+    font-size: 50pt;
+    text-shadow: 1px 1px 1px black;
+}
+
+img{
+    border-radius: 10px;
+    margin-bottom: 25px;
+    height: 300px;
+    border-style: solid;
+    margin-bottom: 0px;
+}
+
+div#respostas{
+    padding:10px;
+}
+
+#res1, #res2{
+    margin: 10px;
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+    font-family: "carterone";
+    font-size: 14pt;
+    border-style: none;
+    background-color: #2E4447;
+    color: white;
+    border-style:solid;
+    border-color: black;
+}
+
+
+input:focus::placeholder{
+    color: transparent;
+}
+
+div#chances{
+    color: white;
+    font-size: 30pt;
+    font-family: "carterone", "arial";
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+}
+
+#res1:focus, #res2:focus{
+    box-shadow: 0 0 0 0;
+    outline:0;
+}
+
+#botaover{
+    background-color:#2E4447;
+    color: white;
+    font-family: "carterone", "arial";
+    font-size: 15pt;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#botaover:hover{
+    cursor: pointer;
+    background-color: #151f20;
+}
+
+#botaover:active{
+    position:relative;
+    top:5px
+}
+

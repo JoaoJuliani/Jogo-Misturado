@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Misturado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MISTURADOS</h1>
+    </header>
+    
+    <main>
+        <div id="imagem">
+            <img src="imagens/imagem-jogo.jpeg" alt="imagem-jogo">
+        </div>
+
+        <div id="respostas">
+            <input type="text" id="res1" placeholder="1ª personalidade" autocomplete="off" spellcheck="false">
+            <input type="text" id="res2" placeholder="2ª personalidade" autocomplete="off" spellcheck="false"> 
+        </div>
+
+        <div><input type="button" value="confirmar" onclick="verificar()" id="botaover"></div>
+
+        <div id="chances">
+            <span id ="1texto">Chances:</span> <span id="nchan">5</span>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
